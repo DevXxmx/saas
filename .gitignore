@@ -1,0 +1,64 @@
+# ── Python / Django ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+sdist/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Migrations are tracked — do NOT ignore them
+# school_saas/apps/*/migrations/
+
+# Pytest / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+
+# ── Node.js / React / Vite ─────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ── IDE / Editor ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── OS ─────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+
+# ── Misc ───────────────────────────────────────────────────
+*.session.sql
+.gemini/

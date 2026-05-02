@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-tertiary text-slate-800 antialiased;
+  }
+  * {
+    @apply border-slate-200;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-card border border-slate-100 p-6;
+  }
+  .form-section {
+    @apply space-y-4 bg-white rounded-lg shadow-card border border-slate-100 p-6;
+  }
+  .page-container {
+    @apply max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6;
+  }
+}
