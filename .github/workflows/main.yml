@@ -59,7 +59,7 @@ jobs:
 
   # ── JOB 3: Secret Detection ──────────────────────────────
  secret-scan:
-    name: Secret & Credential Detection
+    name: Secret and Credential Detection
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
