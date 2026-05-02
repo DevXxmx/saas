@@ -55,7 +55,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: bfc8e1c85e13e9ed6fcc1a6bf8df167d9d38bd2f
 
   # ── JOB 3: Secret Detection ──────────────────────────────
   secret-scan:
