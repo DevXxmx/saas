@@ -37,7 +37,7 @@ jobs:
       - name: Scan Node.js dependencies
         working-directory: ./school-saas-frontend
         run: |
-          npm ci
+          npm install
           npm audit --audit-level=high || true
 
   # ── JOB 2: SonarCloud SAST ───────────────────────────────
