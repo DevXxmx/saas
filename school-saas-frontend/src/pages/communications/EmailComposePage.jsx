@@ -85,7 +85,7 @@ export default function EmailComposePage() {
 
   const addCustomEmail = () => {
     const email = customInput.trim()
-    if (email && /\S+@\S+\.\S+/.test(email) && !customEmails.includes(email)) {
+    if (email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) && !customEmails.includes(email)) {
       const updated = [...customEmails, email]
       setCustomEmails(updated)
       setValue('recipient_ids', updated)
