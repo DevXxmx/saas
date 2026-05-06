@@ -38,7 +38,7 @@ jobs:
         working-directory: ./school-saas-frontend
         run: |
           npm install
-          npm audit --audit-level=high || true
+          npm audit --audit-level=high 
 
   # ── JOB 2: SonarCloud SAST ───────────────────────────────
   sonarcloud:
